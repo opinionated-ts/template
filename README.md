@@ -30,7 +30,7 @@ and runtime.
 Click **Use this template** above, or:
 
 ```bash
-git clone https://github.com/opinionated-ts/ts-template my-project
+git clone https://github.com/opinionated-ts/template my-project
 cd my-project
 rm -rf .git && git init
 ```
