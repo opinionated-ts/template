@@ -1,5 +1,9 @@
 {
   "type": "module",
+  "scripts": {
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
   "devDependencies": {
     "@opinionated-ts/config": "1.5.0",
     "@types/bun": "^1.4.0",
