@@ -1,6 +1,8 @@
 {
   "type": "module",
   "scripts": {
+    "fmt": "oxfmt --check .",
+    "fmt:fix": "oxfmt .",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix"
   },
