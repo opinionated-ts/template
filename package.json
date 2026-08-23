@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "cspell": "cspell lint .",
     "fmt": "oxfmt --check .",
     "fmt:fix": "oxfmt .",
     "lint": "oxlint",
