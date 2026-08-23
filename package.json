@@ -5,7 +5,10 @@
     "fmt": "oxfmt --check .",
     "fmt:fix": "oxfmt .",
     "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
+    "lint:fix": "oxlint --fix",
+    "check": "bun fmt && bun lint && bun cspell",
+    "fix": "bun fmt:fix && bun lint:fix",
+    "hooks:install": "lefthook install"
   },
   "devDependencies": {
     "@opinionated-ts/config": "1.5.0",
