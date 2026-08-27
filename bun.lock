@@ -4,7 +4,7 @@
   "workspaces": {
     "": {
       "devDependencies": {
-        "@opinionated-ts/config": "1.5.0",
+        "@opinionated-ts/config": "^1.8.0",
         "@types/bun": "^1.4.0",
         "@types/node": "^26.2.0",
       },
@@ -202,7 +202,7 @@
 
     "@cspell/url": ["@cspell/url@10.1.0", "", {}, "sha512-MxQyFUYX+M2GJEuPuA0l1aXHmRh52Qd/hTA1aahjUgvgujSghv+rOFhIzqFiVtIa0w/r1RgdCKHF32wNKfGnFg=="],
 
-    "@opinionated-ts/config": ["@opinionated-ts/config@1.5.0", "", { "dependencies": { "@commitlint/cli": "^21.2.2", "@commitlint/config-conventional": "^21.2.2", "@cspell/dict-es-es": "^3.0.8", "cspell": "^10.0.1", "lefthook": "^2.1.10", "oxfmt": "^0.64.0", "oxlint": "^1.79.0", "oxlint-tsgolint": "^7.0.2001" }, "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-LN+/lU1h3YqwcBe/NA177bSgGQ0nPkT8mwntnHvEpsxpqnnHUehc9eaPA+8lL4MQHOqQBRJCsGSFXVNSx6gvOw=="],
+    "@opinionated-ts/config": ["@opinionated-ts/config@1.8.0", "", { "dependencies": { "@commitlint/cli": "^21.2.2", "@commitlint/config-conventional": "^21.2.2", "@cspell/dict-es-es": "^3.0.8", "cspell": "^10.0.1", "lefthook": "^2.1.10", "oxfmt": "^0.64.0", "oxlint": "^1.79.0", "oxlint-tsgolint": "^7.0.2001" }, "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-JWbbdwymyDW8Q7370DH7MI6u7/I2e1i3rKUpdf/oEMQYJPWnT0ujHgTNPZavzsJGEAvBayudGSNnmbQNFO2oWw=="],
 
     "@oxfmt/binding-android-arm-eabi": ["@oxfmt/binding-android-arm-eabi@0.64.0", "", { "os": "android", "cpu": "arm" }, "sha512-o6uzh/jTOQeAY5TdkAeXdqv7MBRcPxiRA08zrcBtkKj5cSu/FMu0Hl7Q6Fi1KCKyCWZ6lJVjBzdsJvsKltUsGQ=="],
 
