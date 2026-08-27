@@ -98,6 +98,23 @@ bun install
 bun hooks:install
 ```
 
+### 4. Edit package metadata
+
+Update `package.json` so releases and CI point to your project:
+
+- `name`: your package name.
+- `repository.url`: your repo's URL.
+
+```json
+{
+  "name": "your-project-name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/your-repo.git"
+  }
+}
+```
+
 ## Why start from this template?
 
 Instead of setting up TypeScript tooling from scratch, this template gives you a
