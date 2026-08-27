@@ -1,7 +1,7 @@
 {
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<your-username>/<your-repo-name>.git"
+    "url": "git+https://github.com/opinionated-ts/template.git"
   },
   "type": "module",
   "scripts": {
