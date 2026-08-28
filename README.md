@@ -15,6 +15,47 @@ Use this template when you want to:
 > [!NOTE]
 > This template is designed primarily for Bun environments.
 
+## Getting started
+
+### 1. Create your repo
+
+Click **Use this template** above, or:
+
+```bash
+git clone https://github.com/opinionated-ts/template my-project
+cd my-project
+rm -rf .git && git init
+```
+
+### 2. Install dependencies
+
+```bash
+bun install
+```
+
+### 3. Install git hooks
+
+```bash
+bun hooks:install
+```
+
+### 4. Edit package metadata
+
+Update `package.json` so releases and CI point to your project:
+
+- `name`: your package name.
+- `repository.url`: your repo's URL.
+
+```json
+{
+  "name": "your-project-name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/your-repo.git"
+  }
+}
+```
+
 ## What's included
 
 ### Local automatic validations
@@ -57,47 +98,6 @@ A few checks run automatically at key moments in the development cycle:
 
 These checks run automatically as part of `git commit` and `git push` — no
 manual steps required.
-
-## Getting started
-
-### 1. Create your repo
-
-Click **Use this template** above, or:
-
-```bash
-git clone https://github.com/opinionated-ts/template my-project
-cd my-project
-rm -rf .git && git init
-```
-
-### 2. Install dependencies
-
-```bash
-bun install
-```
-
-### 3. Install git hooks
-
-```bash
-bun hooks:install
-```
-
-### 4. Edit package metadata
-
-Update `package.json` so releases and CI point to your project:
-
-- `name`: your package name.
-- `repository.url`: your repo's URL.
-
-```json
-{
-  "name": "your-project-name",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-username/your-repo.git"
-  }
-}
-```
 
 ## Related projects
 
