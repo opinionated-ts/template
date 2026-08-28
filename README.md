@@ -1,35 +1,19 @@
 # @opinionated-ts/template
 
-A ready-to-use TypeScript project template powered by
-[`@opinionated-ts/config`](https://github.com/opinionated-ts/config) — a
-shared set of opinionated tooling defaults focused on performance, code
-quality, and developer experience.
-
-This template is designed to let you start building without spending time on
-repetitive project setup. It bundles the tools and local automation that make a
-modern TypeScript workflow fast, consistent, and low-friction.
+A ready-to-use TypeScript project template powered by [`@opinionated-ts/config`](https://github.com/opinionated-ts/config) that bundles opinionated tooling defaults for performance, code quality, and developer experience — so you can start building immediately without repetitive setup.
 
 ## When to use this template?
 
 Use this template when you want to:
 
-- Move fast without sacrificing code quality
-- Keep a consistent developer experience across repositories
 - Avoid repetitive TypeScript tooling setup
 - Standardize linting, formatting, and type-checking with clear defaults
 - Start from a modern Bun-first setup that is ready to use
-
-The stack prioritizes:
-
-- Performance — fast linting, formatting, and validation
-- Code quality — strong type checking and lint rules
-- Developer experience — zero-friction setup and consistent workflows
-- Modern tooling — up-to-date standards and best practices
+- Keep a consistent developer experience across repositories
+- Move fast without sacrificing code quality
 
 > [!NOTE]
-> This template is designed primarily for Bun environments. The workflow
-> validations and tool integrations are optimized for Bun's runtime and package
-> manager.
+> This template is designed primarily for Bun environments.
 
 ## What's included
 
@@ -114,19 +98,6 @@ Update `package.json` so releases and CI point to your project:
   }
 }
 ```
-
-## Why start from this template?
-
-Instead of setting up TypeScript tooling from scratch, this template gives you a
-ready-made baseline that is opinionated by design:
-
-- A consistent setup across projects
-- No boilerplate configuration to maintain
-- Fast local validations built in
-- A clear default workflow for teams and solo developers
-
-If you want a fast path to a clean TypeScript setup with strong defaults, this is
-the quickest way to get there.
 
 ## Related projects
 
