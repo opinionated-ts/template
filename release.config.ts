@@ -7,7 +7,7 @@ export default {
   plugins: [
     ...semanticReleaseConfig.plugins,
 
-    // your custom plugins here
+    // Custom plugins here
     // "@semantic-release/npm", // → publish to npm if needed
   ],
 } satisfies Options;
