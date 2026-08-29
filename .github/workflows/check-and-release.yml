@@ -20,7 +20,7 @@ jobs:
     needs: check
     if: >-
       github.event_name == 'push' &&
-      contains(fromJSON('["refs/heads/main", "refs/heads/master", "refs/heads/beta"]'), github.ref)
+      contains(fromJSON('["refs/heads/main", "refs/heads/master", "refs/heads/beta", "refs/heads/next", "refs/heads/insiders"]'), github.ref)
     uses: opinionated-ts/config/.github/workflows/release.yml@v1
     permissions:
       contents: write
