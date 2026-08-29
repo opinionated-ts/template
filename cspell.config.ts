@@ -6,18 +6,18 @@ export default defineConfig({
 
   dictionaries: [
     ...cspellConfig.dictionaries,
-    // Add your custom dictionaries here
+    // Custom dictionaries here
   ],
 
   import: [
     ...cspellConfig.import,
-    // Add your custom import paths here
+    // Custom import paths here
   ],
 
   words: [
     ...cspellConfig.words,
-    // Add your custom words here
+    // Custom words here
   ],
 
-  // Add any additional custom configuration here
+  // Any additional custom configuration here
 });

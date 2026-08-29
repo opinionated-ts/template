@@ -3,5 +3,6 @@ import { defineConfig } from "oxfmt";
 
 export default defineConfig({
   ...oxfmtConfig,
-  // Your custom configuration
+
+  // Custom configuration here
 });

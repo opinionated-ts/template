@@ -10,7 +10,7 @@ export default {
     // oxlint-disable-next-line typescript/no-unsafe-type-assertion
     ...(commitlintConfig.rules as RulesConfig),
 
-    // Add your custom rules here
+    // Custom rules here
   },
 } satisfies UserConfig;
 
