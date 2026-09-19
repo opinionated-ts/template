@@ -13,12 +13,17 @@
     "lint:fix": "oxlint --fix",
     "check": "bun fmt && bun lint && bun cspell",
     "fix": "bun fmt:fix && bun lint:fix",
-    "hooks:install": "lefthook install"
+    "hooks:install": "lefthook install",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@opinionated-ts/config": "^1.8.9",
+    "@opinionated-ts/config": "^1.8.10",
     "@types/bun": "^1.4.0",
-    "@types/node": "^26.2.0"
+    "@types/node": "^26.2.0",
+    "@vitest/coverage-istanbul": "5.0.1",
+    "vitest": "^5.0.1"
   },
   "peerDependencies": {
     "typescript": "^7.0.2"
