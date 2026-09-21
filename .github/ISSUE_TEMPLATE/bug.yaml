@@ -1,0 +1,100 @@
+name: Bug report
+description: Report incorrect or unexpected behavior.
+title: "bug: "
+type: Bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill each section only when it adds meaningful information.
+
+        Do not repeat information that is already clear from the issue title,
+        linked references, or other sections.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: Describe the incorrect behavior as one clear objective.
+      placeholder: |
+        What: Requests with expired sessions are accepted as authenticated.
+
+        Not:
+        What: The session middleware has a bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what should happen instead.
+      placeholder: |
+        Requests using expired sessions should be rejected.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: Describe what currently happens.
+      placeholder: |
+        Requests using expired sessions are accepted as authenticated.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reliable sequence of steps needed to reproduce the issue.
+      placeholder: |
+        1. Create a session.
+        2. Wait for the session to expire.
+        3. Send an authenticated request.
+        4. Observe that the request is accepted.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include environment details that may affect reproducibility.
+      placeholder: |
+        - OS:
+        - Runtime:
+        - Package version:
+        - Relevant configuration:
+    validations:
+      required: false
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related
+      description: Link relevant issues, discussions, pull requests, or documentation.
+      placeholder: |
+        Issues:
+        - #123
+
+        Discussions:
+        - #456
+
+        Pull requests:
+        - #789
+
+        Documentation:
+        - https://...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Add useful context that is not already covered above or by linked references.
+    validations:
+      required: false
