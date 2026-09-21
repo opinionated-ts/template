@@ -1,0 +1,67 @@
+name: Feature request
+description: Propose a new capability or behavior.
+title: "feat: "
+type: Enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill each section only when it adds meaningful information.
+
+        Do not repeat information that is already clear from the issue title,
+        linked references, or other sections.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Explain why this change is necessary and how it contributes to the larger objective.
+      placeholder: |
+        Why: Allow consumers to reliably detect when a session is no longer valid.
+
+        Not:
+        Why: Add a session expiration check to the middleware.
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: Describe what must change as one clear objective.
+      placeholder: |
+        What: Add session expiration validation.
+
+        Not:
+        What: Implement a new authentication module.
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related
+      description: Link relevant issues, discussions, pull requests, or documentation.
+      placeholder: |
+        Issues:
+        - #123
+
+        Discussions:
+        - #456
+
+        Pull requests:
+        - #789
+
+        Documentation:
+        - https://...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Add useful context that is not already covered above or by linked references.
+    validations:
+      required: false
