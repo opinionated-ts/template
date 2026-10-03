@@ -111,3 +111,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Ignore skills installed automatically by `bunx skills experimental_install` or "bun skills:install"
+# into hidden agent-specific directories (e.g. `.agents/skills/`, `.claude/skills/`).
+# Repository-owned skills must live in the root `skills/` directory and are tracked.
+.[!.]*/skills/

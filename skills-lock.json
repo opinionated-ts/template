@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "conventional-commit-message": {
+      "source": "conventional-changelog/conventional-changelog",
+      "sourceType": "github",
+      "skillPath": "skills/conventional-commit-message/SKILL.md",
+      "computedHash": "6ae250d67edc757e2e54163dae2d32f7b44bd8827231cbab2895db8fc0331ac3"
+    },
+    "create-error": {
+      "source": "opinionated-ts/error-factory",
+      "sourceType": "github",
+      "skillPath": "skills/create-error/SKILL.md",
+      "computedHash": "7426434b5f3db27d29ddae328b7a8104be5732a8196b62be39cf59dd400dfbd2"
+    },
+    "opinionated-ts-result": {
+      "source": "opinionated-ts/result",
+      "sourceType": "github",
+      "skillPath": "skills/opinionated-ts-result/SKILL.md",
+      "computedHash": "4aecb9d3f84472a7f11fe137e6127fd5e4c1dd453ce64e567aee6e5bac5c69a5"
+    },
+    "writing-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/writing-guidelines/SKILL.md",
+      "computedHash": "25aa3a33a97bddbcb1847ce4a6169106ec25e5b19b15b99c66e75ab383866ef2"
+    }
+  }
+}
