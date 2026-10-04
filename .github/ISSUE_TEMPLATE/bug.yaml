@@ -1,4 +1,4 @@
-name: Bug report
+name: 🐛 Bug report
 description: Report incorrect or unexpected behavior.
 title: "bug: "
 type: Bug
@@ -7,29 +7,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Fill each section only when it adds meaningful information.
+        Thanks for taking the time to report a bug.
 
-        Do not repeat information that is already clear from the issue title,
-        linked references, or other sections.
-
-  - type: textarea
-    id: what
-    attributes:
-      label: What
-      description: Describe the incorrect behavior as one clear objective.
-      placeholder: |
-        What: Requests with expired sessions are accepted as authenticated.
-
-        Not:
-        What: The session middleware has a bug.
-    validations:
-      required: true
+        Please provide enough information to understand, reproduce, and investigate the issue.
 
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior
-      description: Describe what should happen instead.
+      description: Describe what should happen.
       placeholder: |
         Requests using expired sessions should be rejected.
     validations:
@@ -39,7 +25,7 @@ body:
     id: actual-behavior
     attributes:
       label: Actual behavior
-      description: Describe what currently happens.
+      description: Describe what currently happens instead.
       placeholder: |
         Requests using expired sessions are accepted as authenticated.
     validations:
@@ -59,42 +45,39 @@ body:
       required: true
 
   - type: textarea
-    id: environment
+    id: additional-notes
     attributes:
-      label: Environment
-      description: Include environment details that may affect reproducibility.
+      label: Additional Notes
+      description: Add context that may help understand, reproduce, or investigate the issue.
       placeholder: |
+        Include only when relevant:
+
+        Environment:
         - OS:
         - Runtime:
         - Package version:
         - Relevant configuration:
-    validations:
-      required: false
 
-  - type: textarea
-    id: related
-    attributes:
-      label: Related
-      description: Link relevant issues, discussions, pull requests, or documentation.
-      placeholder: |
+        References:
+
+        Use `username|org/repository#NUMBER` for external repositories and `#NUMBER` for this repository.
+
         Issues:
-        - #123
+        - username|org/repository#ISSUE_NUMBER
+        - #ISSUE_NUMBER
 
         Discussions:
-        - #456
+        - username|org/repository#DISCUSSION_NUMBER
+        - #DISCUSSION_NUMBER
 
         Pull requests:
-        - #789
+        - username|org/repository#PR_NUMBER
+        - #PR_NUMBER
 
         Documentation:
         - https://...
-    validations:
-      required: false
 
-  - type: textarea
-    id: additional-notes
-    attributes:
-      label: Additional Notes
-      description: Add useful context that is not already covered above or by linked references.
+        Additional context:
+        - ...
     validations:
       required: false
