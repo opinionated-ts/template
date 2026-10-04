@@ -1,4 +1,4 @@
-name: Feature request
+name: 🚀 Feature request
 description: Propose a new capability or behavior.
 title: "feat: "
 type: Enhancement
@@ -7,61 +7,46 @@ body:
   - type: markdown
     attributes:
       value: |
-        Fill each section only when it adds meaningful information.
+        Thanks for taking the time to propose a feature.
 
-        Do not repeat information that is already clear from the issue title,
-        linked references, or other sections.
+        Focus on the problem, desired outcome, and scope rather than prescribing an implementation.
 
   - type: textarea
     id: why
     attributes:
       label: Why
-      description: Explain why this change is necessary and how it contributes to the larger objective.
+      description: Explain the problem, opportunity, or need behind this proposal and why it matters.
       placeholder: |
-        Why: Allow consumers to reliably detect when a session is no longer valid.
+        Explain the need or problem this change would address.
+
+        Example:
+        Provide a consistent way to create typed errors across the package.
 
         Not:
-        Why: Add a session expiration check to the middleware.
+        Why: Add a `createError` function.
     validations:
       required: true
-
-  - type: textarea
-    id: what
-    attributes:
-      label: What
-      description: Describe what must change as one clear objective.
-      placeholder: |
-        What: Add session expiration validation.
-
-        Not:
-        What: Implement a new authentication module.
-    validations:
-      required: true
-
-  - type: textarea
-    id: related
-    attributes:
-      label: Related
-      description: Link relevant issues, discussions, pull requests, or documentation.
-      placeholder: |
-        Issues:
-        - #123
-
-        Discussions:
-        - #456
-
-        Pull requests:
-        - #789
-
-        Documentation:
-        - https://...
-    validations:
-      required: false
 
   - type: textarea
     id: additional-notes
     attributes:
-      label: Additional Notes
-      description: Add useful context that is not already covered above or by linked references.
+      label: Context
+      description: Add relevant context that helps evaluate the proposal but is not already covered above.
+      placeholder: |
+        Include only when relevant:
+
+        Design considerations:
+        - ...
+
+        Trade-offs or alternatives:
+        - ...
+
+        References:
+        - owner/repository#NUMBER
+        - #NUMBER
+        - https://...
+
+        Other context:
+        - ...
     validations:
       required: false
