@@ -17,7 +17,8 @@
     "skills:install": "bun skills experimental_install",
     "test": "vitest run",
     "test:watch": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "audit": "bun audit fix --ignore GHSA-vfj7-8cjw-p6xm"
   },
   "devDependencies": {
     "@opinionated-ts/config": "^1.9.0",
