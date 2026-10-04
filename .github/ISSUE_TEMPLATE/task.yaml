@@ -1,0 +1,96 @@
+name: 🔧 Implementation task
+description: Track implementation work for maintainers and project developers.
+title: "task: "
+type: Enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Internal implementation task tracking.
+
+        Do not repeat information already clear from linked references, or other sections.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Explain the motivation, problem, or reason this task needs to be completed.
+      placeholder: |
+        Explain the outcome or problem that motivates the work.
+
+        Example:
+        The package needs a consistent way to create typed errors.
+
+        Not:
+        Add a `createError` function.
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: Describe the scope of the work and the changes this task is intended to cover.
+      placeholder: |
+        Describe what this task should accomplish.
+
+        Focus on scope and intended behavior rather than implementation details.
+
+        Example:
+        Introduce a typed error factory and integrate it with the existing error model.
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Define the specific, observable conditions that must be satisfied for this task to be considered complete.
+      placeholder: |
+        Include only criteria that require human verification and are specific to this task.
+
+        Do not duplicate project-wide rules or checks already enforced by tooling, CI, or other automation.
+
+        Avoid:
+        - Tests passing
+        - Coverage requirements
+        - Formatting or linting compliance
+        - Type checking
+        - Build success
+        - Commit message format
+
+        Prefer:
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Context
+      description: Add relevant design context, trade-offs, history, or references that are not already captured above.
+      placeholder: |
+        Include only when relevant:
+
+        Design considerations:
+        - ...
+
+        Trade-offs or alternatives:
+        - ...
+
+        References:
+        - owner/repository#NUMBER
+        - #NUMBER
+        - https://...
+
+        Other context:
+        - ...
+
+        Closing keywords:
+        - Closes #NUMBER
+        - Fixes #NUMBER
+        - Related to #NUMBER
+    validations:
+      required: false
