@@ -21,7 +21,7 @@
     "audit": "bun audit fix --ignore GHSA-vfj7-8cjw-p6xm"
   },
   "devDependencies": {
-    "@opinionated-ts/config": "^1.9.0",
+    "@opinionated-ts/config": "^1.9.1",
     "@types/bun": "^1.4.0",
     "@types/node": "^26.2.0",
     "@vitest/coverage-istanbul": "5.0.1",
