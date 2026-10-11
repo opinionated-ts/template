@@ -17,7 +17,7 @@
       "source": "opinionated-ts/result",
       "sourceType": "github",
       "skillPath": "skills/opinionated-ts-result/SKILL.md",
-      "computedHash": "4aecb9d3f84472a7f11fe137e6127fd5e4c1dd453ce64e567aee6e5bac5c69a5"
+      "computedHash": "14353149489caffb4162b7894db9a3688f35af709f0bd6fed8508545f8c7a96b"
     },
     "writing-guidelines": {
       "source": "vercel-labs/agent-skills",

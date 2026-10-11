@@ -21,7 +21,8 @@
     "audit": "bun audit fix --ignore GHSA-vfj7-8cjw-p6xm"
   },
   "dependencies": {
-    "@opinionated-ts/error-factory": "^1.0.1"
+    "@opinionated-ts/error-factory": "^1.0.1",
+    "@opinionated-ts/result": "^1.0.0"
   },
   "devDependencies": {
     "@opinionated-ts/config": "^1.9.1",
