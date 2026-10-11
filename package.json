@@ -26,12 +26,12 @@
   },
   "devDependencies": {
     "@opinionated-ts/config": "^1.9.1",
-    "@types/bun": "^1.4.0",
-    "@types/node": "^26.2.0",
-    "@vitest/coverage-istanbul": "5.0.1",
-    "skills": "^1.7.0",
+    "@types/bun": "^1.4.2",
+    "@types/node": "^26.6.4",
+    "@vitest/coverage-istanbul": "5.0.3",
+    "skills": "^1.7.1",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.1"
+    "vitest": "^5.0.3"
   },
   "engines": {
     "bun": "^1.4.0"
