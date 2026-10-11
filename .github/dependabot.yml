@@ -10,6 +10,16 @@ updates:
     commit-message:
       prefix: chore
       include: scope
+    groups:
+      non-major-dependencies:
+        applies-to: version-updates
+        update-types:
+          - minor
+          - patch
+      security-dependencies:
+        applies-to: security-updates
+        patterns:
+          - "*"
 
   - package-ecosystem: github-actions
     directory: /
@@ -21,3 +31,13 @@ updates:
     commit-message:
       prefix: chore
       include: scope
+    groups:
+      non-major-dependencies:
+        applies-to: version-updates
+        update-types:
+          - minor
+          - patch
+      security-dependencies:
+        applies-to: security-updates
+        patterns:
+          - "*"
