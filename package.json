@@ -20,16 +20,17 @@
     "coverage": "vitest run --coverage",
     "audit": "bun audit fix --ignore GHSA-vfj7-8cjw-p6xm"
   },
+  "dependencies": {
+    "@opinionated-ts/error-factory": "^1.0.1"
+  },
   "devDependencies": {
     "@opinionated-ts/config": "^1.9.1",
     "@types/bun": "^1.4.0",
     "@types/node": "^26.2.0",
     "@vitest/coverage-istanbul": "5.0.1",
     "skills": "^1.7.0",
+    "typescript": "^7.0.2",
     "vitest": "^5.0.1"
-  },
-  "peerDependencies": {
-    "typescript": "^7.0.2"
   },
   "engines": {
     "bun": "^1.4.0"
