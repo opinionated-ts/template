@@ -2,6 +2,9 @@
 
 A ready-to-use TypeScript project template powered by [`@opinionated-ts/config`](https://github.com/opinionated-ts/config) that bundles opinionated tooling defaults for performance, code quality, and developer experience — so you can start building immediately without repetitive setup.
 
+> [!NOTE]
+> **Deprecation notice for new projects:** We're working toward on-demand template creation to reduce cross-repository maintenance and keep shared improvements and release notes aligned. This template remains usable and may continue to receive updates. [Read the rationale and follow the transition](https://github.com/opinionated-ts/template/discussions/5).
+
 ## When to use this template?
 
 Use this template when you want to:
